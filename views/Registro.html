@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Registro</title>
+		<style type="text/css">
+
+		ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AC0404;
+	}
+
+	li {
+	    float: left;
+	}
+
+	li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	li a:hover {
+	    background-color: #D81C1C;
+	}
+       
+			h1{color: #FBFBEF;}
+			h2{color: #F7FE2E;}
+			#mih2{color: #F7FE2E;}
+			body{background-color: #FF8000;background-image: url('images/1fondo camara.jpg'); background-attachment: fixed;}
+			p{
+				font-size: 14px;
+				color: #F7FE2E;
+			}
+			#container{
+					margin: 5% 30% 5% 30%;
+					border: 1px solid #ccc;
+					background-image: url('images/fondo codigo.jpg');
+					padding: 0 10px 10px 50px; 
+					float: center;
+					
+			}
+			.parrafos{
+				background-color: #0B0B61;
+			}
+			label{font-weight: bold;}
+		</style>
+</head>
+<body>
+	<ul>
+						<li><a href="E:\Edward\Programacion\Proyecto\New Proyect/Index.html">Inicio</a></li>
+						<li><a href="E:\Edward\Programacion\Proyecto\New Proyect\views/QUIENES SOMOS .html" target="_parent">Quienes somos</a></li>
+						<li><a href="E:\Edward\Programacion\Proyecto\New Proyect\views/Precios .html" target="_parent">Servicios</a></li>
+						<li><a href="E:\Edward\Programacion\Proyecto\New Proyect\views/Contac.html" target="_parent">Contacto</a>
+						 						
+					</li>
+					</ul>
+	<div id="container">
+		<h1>REGISTRO</h1>
+		<form>
+			
+			
+				<p>	
+				<div class="label">
+					<label>NOMBRE</label>
+				</div>
+			<input type="tex" name="Nombre"/>
+			</p>
+			<label>TIPO DE DOCUMENTO</label><br>
+			<select name="Tipo de documento">
+			  <option>Cedula</option>
+			  <option>Cedula de extrangeria</option>
+			  <option>Pasaporte</option>
+
+ <option selected="selected">--seleccionar--</option>
+		</select>
+
+			<p>
+				<div class="label">
+					<label>IDENTIFICACION</label>
+				</div>	
+			<input type="tex" name="IDENTIFICACION"/>
+			</p>
+			<p>
+				<div class="label">
+					<label>IMAIL</label>
+				</div>	
+			<input type="tex" name="IMAIL"/>
+			</p>
+			
+			<p>
+				<div class="label">
+					<label>TELEFONO</label>
+				</div>	
+			<input type="tex" name="TELEFONO"/>
+			</p>
+			
+			<p>
+				<input type="submit"  value="Enviar"/>
+				<input type="reset" value="Limpiar datos
+				"/>
+			</p>
+		</form>
+
+		</div>
+</body>
+</html>
